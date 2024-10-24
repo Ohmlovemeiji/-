@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffccff; /* สีพื้นหลังชมพูอ่อน */
+    background-image: url('heart-background.png'); /* รูปหัวใจ */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Arial', sans-serif; /* ฟอนต์ */
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* พื้นหลังฟอร์มโปร่งใส */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin: 20px 0;
+    font-family: 'Comic Sans MS', cursive; /* ฟอนต์หัวเรื่อง */
+    color: #d5006d; /* สีข้อความ */
+}
+
+h2 {
+    margin: 10px 0;
+    color: #b2004f; /* สีข้อความ */
+}
+
+input[type="text"], input[type="submit"], button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #d5006d;
+}
+
+input[type="submit"], button {
+    background-color: #d5006d;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #b2004f; /* เปลี่ยนสีเมื่อเมาส์ไปอยู่เหนือ */
+}
+
+.percentage {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #d5006d; /* สีข้อความ */
+}
